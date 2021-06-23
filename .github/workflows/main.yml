@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions1
+# This is an basic workflow to help you get started with Actions
 
 name: "GitHub Actions SMZDM Bot"
 
@@ -10,7 +10,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '2 0 * * *'
+    - cron: '1 0 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
